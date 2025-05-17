@@ -1,6 +1,6 @@
 async function getWeather(city) {
-  const apiKey = '2cb994405e3a5f85ab2921d7e0466211';
-  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+  const apiKey = '8165b0e6cea6bb0d17dfe21d45bf9389';
+  const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
   try {
     const response = await fetch(url);
@@ -18,4 +18,4 @@ async function getWeather(city) {
   }
 }
 
-getWeather("Lahore");
+getWeather("Mingora");
