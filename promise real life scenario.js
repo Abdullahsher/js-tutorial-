@@ -1,5 +1,5 @@
 function orderFood(food) {
-    let mypromise = new Promise((resolve, reject) => {
+    return  new Promise((resolve, reject) => {
     console.log("You have ordered the food");
 
     setTimeout(() => {
@@ -13,7 +13,7 @@ function orderFood(food) {
     }, 2000);
   });
 
-  return mypromise;
+  
 }
 
 
