@@ -1,7 +1,7 @@
 // Promises 
 console.log ("Hello");
 let promise = new Promise (function(resolve , reject){
-    alert("I am in new Promise")
+    console.log("I am in new Promise")
     resolve(56)
 })
 
